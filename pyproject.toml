@@ -1,0 +1,18 @@
+[project]
+name = "retailbot-ai"
+version = "0.1.0"
+description = "RetailBot AI - Intelligent retail assistant powered by Gemini"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "pydantic-settings",
+    "google-genai",
+    "python-dotenv",
+    "httpx",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
